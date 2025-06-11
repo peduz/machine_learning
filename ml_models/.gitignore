@@ -1,0 +1,52 @@
+# Bytecode e cache
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+
+# Ambiente virtuale
+venv/
+.env/
+.envrc
+*.env
+
+# File temporanei e log
+*.log
+*.out
+*.tmp
+*.swp
+.DS_Store
+
+# Dataset e output
+*.csv
+*.tsv
+*.zip
+*.gz
+*.h5
+*.pkl
+*.joblib
+*.npy
+*.npz
+
+# Modelli salvati
+*.ckpt
+*.pb
+*.hdf5
+*.pt
+*.onnx
+
+# Notebook checkpoint
+.ipynb_checkpoints
+
+# IDE specifici
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Output di TensorBoard
+logs/
+events.out.tfevents.*
+
+# Risorse colab o jupyter
+*.nbconvert.ipynb
